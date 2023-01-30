@@ -1,4 +1,4 @@
-### Let's get started with a practical Symbol blockchain learning programme from today
+### Let's get started with a practical course learning about the Symbol blockchain
 
 # Quick learning Symbol
 
@@ -6,7 +6,7 @@
 
 ### XEMBook
 
-## Other language
+## Other languages
 
 [Japanese](https://learn.ja.symbol-community.com)
 

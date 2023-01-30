@@ -1,23 +1,23 @@
-# 2.Building a development environment
+# 2. Building a development environment
 
-This section explains how to go on reading this document.
+This section explains how to read this document.
 
 ## 2.1 Language
 
-Use JavaScript here.
+All code will be written in JavaScript.
 
 ### SDK
 
 symbol-sdk-typescript-javascript v2.0.0  
 https://github.com/symbol/symbol-sdk-typescript-javascript
 
-Load The SDK above as browserify into the browser developer console.  
+Load The SDK above as browserify in the browser developer console.  
 https://github.com/xembook/nem2-browserify
 
 ##### Note
 
 Currently symbol-sdk v3.0.0 is released in alpha versiton, v 2.0.0 is deprecated  
-The v3 removed many of the rxjs-dependent features thus direct access to the REST API is recommended.
+and version 3 removed many of the rxjs-dependent features thus direct access to the REST API is recommended.
 
 ### Reference
 
@@ -31,28 +31,25 @@ https://symbol.github.io/symbol-openapi/v1.0.3/
 
 ### Variable declaration
 
-In this document, we do not dare to declare const because we want you to rewrite it repeatedly on the console to verify that it works.  
-When developing applications, ensure security by declaring const.
+In this document, we do not declare const because we want you to rewrite it repeatedly on the console to verify that it works. When developing applications, ensure security by declaring const.
 
 ### Check output value
 
-Console.log() outputs the contents of the variable. Try out the output functions according to your preferences.  
-The output is described under `>`. When Practicing with a sample, try it without this part.
-
+Console.log() outputs the contents of the variable. Try out the output functions according to your preferences.  The output is described under `>`. When practicing with a sample, try it without this part.
+ 
 ### Synchronous and asynchronous
 
-Some developers used to other languages may feel uneasy with writing asynchronous processing, so unless there is a particular reason, the explanation is written without asynchronous processing.
+Some developers used to other languages may feel uneasy writing asynchronous processing, so unless there is a particular reason, the explanations are written without asynchronous processing.
 
 ### Account
 
 #### Alice
 
-This manual focuses on the Alice account.  
-We will continue to use the Alice account which is created in chapter 3 in subsequent chapters. Please go on reading this manual with sufficient XYM sent.
+This manual focuses on the Alice account. We will continue to use the Alice account created in chapter 3 in subsequent chapters. Please go on reading this manual with sufficient XYM sent.
 
 #### Bob
 
-Bob is created as an account for sending and receiving with Alice, as required in the chapters. Others, such as Carol, are used in the multisig chapters.
+Bob is created as an account for transacting with Alice, as required in the chapters. Others, such as Carol, are used in the multisig chapters.
 
 ### Fee
 
