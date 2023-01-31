@@ -1,4 +1,4 @@
-# 5.Mosaics
+# 5. Mosaics
 
 This chapter describes the Mosaic settings and how they are generated.
 In Symbol, a token is called as a Mosaic.
