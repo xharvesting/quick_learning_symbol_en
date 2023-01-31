@@ -213,7 +213,9 @@ As a result of the accumulation of 'indelible transaction instructions' for all 
 #### NFT (non fungible token)
 
 By limiting the number of tokens total supply to 1 and setting supplyMutable to false, only one token can be issued and no more can ever exist.
-Mosaic holds the account address it created as an non-tamperable information, so the account's transferring transactions can be used as metadata.
+
+Mosaics store information about the account address that issued the mosaic and this data cannot be tampered with. Therefore, transactions from the account that issued the mosaic can be treated as metadata.
+
 Note that there is also a way to register metadata to the mosaic, described in Chapter 7, which can be updated by the multi signature of the registered account and the mosaic issuer.
 
 There are many ways to create NFTs, an example of the process is given below (please set the nonce and flag information appropriately for execution).
